@@ -13,10 +13,25 @@ export class HeroesComponent implements OnInit {
     name: 'Windstorm'
   };
 
-  hero1: Hero = {
+  jean: Hero = {
     id: 2,
-    name: 'Jean Bosco'
-  }
+    name: 'Jean'
+  };
+
+  bosco: Hero = {
+    id: 3,
+    name: 'Bosco'
+  };
+
+  mengue: Hero = {
+    id: 4,
+    name: 'Mengue'
+  };
+
+  junior: Hero = {
+    id: 5,
+    name: 'junior'
+  };
 
   constructor() { }
 
